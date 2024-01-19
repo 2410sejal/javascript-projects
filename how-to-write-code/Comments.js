@@ -1,12 +1,13 @@
    // This demo shows off comments!
 
-   // console.log("This does not print.");
+   // console.log("i understand that it won't print.");
 
-   console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
+   console.log("Hello, World!"); // adding options below to get better understanding.
 
-   /* Here is how
-   to have
-   multi-line
-   comments. */
+   /* you can play
+   rudrashtakam
+   or sing
+   lulla to make 
+   kids sleep. */
 
-   console.log("Comments make your code more readable by others.");
+   console.log("making my kid sleep during my studdies is a hardship.");
