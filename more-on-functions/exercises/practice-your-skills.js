@@ -12,4 +12,16 @@ b) Replace any strings with “ARRR!”
 c) Print the new array to confirm your work.
 */
 
-let arr = ['Elocution', 21, 'Clean teeth', 100];
+let arr = ['Elocution', true, 'Clean teeth', 100];
+
+let checkVariable = arr.map(function(x){
+    if (typeof x === 'number'){
+        return 3*x;
+    } else if (typeof x === 'string'){
+        return 'ARRR!';
+    } else {
+        return x;
+    }
+});
+
+console.log(checkVariable);
